@@ -1,0 +1,12 @@
+
+//practice program to try out addition of values
+
+package main
+import "fmt"
+func main(){
+
+
+fmt.Printf("GO"+"Lang")
+fmt.Println("\nthis is similar to"+"  operater overloading in C++")
+fmt.Println(true&&false)
+}

@@ -1,0 +1,19 @@
+//program for a menu driven calcuator
+package main
+
+import "fmt"
+
+func main() {
+	i, a, b := 1, 5, 10
+
+	switch i {
+	case 1:
+		fmt.Println("You have choosen to add\n",a, "+", b, "=",a+b)
+  case 2:
+    fmt.Println("you have choosen to subtract\n",a,"-",b,"=",a-b)
+  case 3:
+    fmt.Println("You have choosen to multiply\n",a,"*",b,"=",a*b)
+  case 4:
+    fmt.Println("You have choosen to divide\n",a,"/",b,"=",a/b)
+	}
+}

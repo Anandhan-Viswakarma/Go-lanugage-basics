@@ -1,0 +1,16 @@
+package main
+
+import "fmt"
+
+func main() {
+	const s string = "hello"
+	fmt.Printf(s)
+	const a int = 5
+	fmt.Println(a)
+	var X int = 8
+	fmt.Println(X) //println is  for displaying integers
+	var p string = "Testing"
+	fmt.Printf(p) //printf is  for displaying strings
+	const g int = a%5
+	fmt.Println(g)
+}

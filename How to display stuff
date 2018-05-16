@@ -1,0 +1,12 @@
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Printf("Just checking out how to display stuff on go \n")
+
+	fmt.Printf("  \n just trying out more statements here to try out the use non graphic letters \n \thello i think i'm done with basic output techniques")
+        fmt.Printf("\n Now let's try some additions or whatever  \n 5+2= %v", 5+2)//Not really sure why the "%v" is used but it does delete the odd output produced by just adding 5 &2
+        fmt.Printf("\t 5/2=%v",5/2)
+        fmt.Printf("\ncool it works!!!\n Moving on to next")
+}
